@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac -d out src/phase6_advanced/trees/AdvancedTrees.java)",
+      "Bash(java -cp out phase6_advanced.trees.AdvancedTrees)",
+      "Bash(javac -encoding UTF-8 -d out src/phase6_advanced/trees/AdvancedTrees.java)",
+      "Bash(javac -encoding UTF-8 -d out src/phase6_advanced/strings/StringAlgorithms.java)",
+      "Bash(java -cp out phase6_advanced.strings.StringAlgorithms)",
+      "Bash(javac -encoding UTF-8 -d out src/phase6_advanced/math/MathAndBits.java)",
+      "Bash(java -cp out phase6_advanced.math.MathAndBits)",
+      "Bash(javac -encoding UTF-8 -d out src/phase6_advanced/systemdesign/SystemDesignDSA.java)",
+      "Bash(java -cp out phase6_advanced.systemdesign.SystemDesignDSA)",
+      "Bash(javac -encoding UTF-8 -d out src/leetcode_practice/Session01_TwoPointerSliding.java)",
+      "Bash(java -cp out leetcode_practice.Session01_TwoPointerSliding)",
+      "Bash(javac -encoding UTF-8 -d out src/leetcode_practice/Session02_BinarySearch.java)",
+      "Bash(java -cp out leetcode_practice.Session02_BinarySearch)",
+      "Bash(javac -encoding UTF-8 -d out src/leetcode_practice/Session03_StackAndTrees.java)",
+      "Bash(java -cp out leetcode_practice.Session03_StackAndTrees)",
+      "Bash(javac -encoding UTF-8 -d out src/leetcode_practice/Session04_DynamicProgramming.java)",
+      "Bash(java -cp out leetcode_practice.Session04_DynamicProgramming)",
+      "Bash(javac -encoding UTF-8 -d out src/leetcode_practice/Session05_Graphs.java)",
+      "Bash(java -cp out leetcode_practice.Session05_Graphs)",
+      "Bash(javac -encoding UTF-8 -d out src/leetcode_practice/Session06_BacktrackingGreedy.java)",
+      "Bash(java -cp out leetcode_practice.Session06_BacktrackingGreedy)"
+    ]
+  }
+}

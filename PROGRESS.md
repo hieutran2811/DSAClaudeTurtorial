@@ -13,9 +13,9 @@
 | 3 | Algorithms | ✅ Complete | 20 / 20 topics |
 | 4 | Graph Algorithms | ✅ Complete | 19 / 19 topics |
 | 5 | Dynamic Programming | ✅ Complete | 17 / 17 topics |
-| 6 | Advanced Topics | ⬜ Not Started | 0 / 19 topics |
+| 6 | Advanced Topics | ✅ Complete | 19 / 19 topics |
 
-**Total LeetCode solved**: 0 / 200+
+**Total LeetCode solved**: 64 problems (6 sessions) + 60+ in theory files = 120+ total
 
 ---
 
@@ -221,37 +221,37 @@
 ### 6.1 Advanced Trees
 | # | Topic | Status | Notes |
 |---|-------|--------|-------|
-| 90 | AVL Tree | ⬜ | |
-| 91 | Red-Black Tree (concepts) | ⬜ | |
-| 92 | Segment Tree | ⬜ | |
-| 93 | Fenwick Tree / BIT | ⬜ | |
-| 94 | Sparse Table | ⬜ | |
+| 90 | AVL Tree | 🔵 | AdvancedTrees.java — rotations, insert, delete, search O(log n) |
+| 91 | Red-Black Tree (concepts) | 🔵 | AdvancedTrees.java — 5 properties, AVL vs RB, Java TreeMap |
+| 92 | Segment Tree | 🔵 | AdvancedTrees.java — Sum/Min, build O(n), query/update O(log n), #307 |
+| 93 | Fenwick Tree / BIT | 🔵 | AdvancedTrees.java — i&(-i) trick, prefix sum, 2D BIT |
+| 94 | Sparse Table | 🔵 | AdvancedTrees.java — O(1) RMQ, O(n log n) build, idempotent functions |
 
 ### 6.2 String Algorithms
 | # | Topic | Status | Notes |
 |---|-------|--------|-------|
-| 95 | KMP | ⬜ | |
-| 96 | Rabin-Karp | ⬜ | |
-| 97 | Z-algorithm | ⬜ | |
-| 98 | Suffix Array (concept) | ⬜ | |
+| 95 | KMP | 🔵 | StringAlgorithms.java -- LPS array, #28 #459 #214 |
+| 96 | Rabin-Karp | 🔵 | StringAlgorithms.java -- rolling hash, #187 #1044 |
+| 97 | Z-algorithm | 🔵 | StringAlgorithms.java -- Z-box, Z-search, #2223 |
+| 98 | Suffix Array (concept) | 🔵 | StringAlgorithms.java -- SA+LCP, Kasai O(n), distinct substrings |
 
 ### 6.3 Math & Bit Manipulation
 | # | Topic | Status | Notes |
 |---|-------|--------|-------|
-| 99 | Bit tricks | ⬜ | |
-| 100 | Power set using bits | ⬜ | |
-| 101 | Sieve of Eratosthenes | ⬜ | |
-| 102 | GCD / LCM | ⬜ | |
-| 103 | Modular arithmetic | ⬜ | |
+| 99 | Bit tricks | 🔵 | MathAndBits.java -- n&(n-1), XOR tricks, #136 #137 #260 #338 #371 |
+| 100 | Power set using bits | 🔵 | MathAndBits.java -- #78 subsets, sub-mask enum, Gosper's hack |
+| 101 | Sieve of Eratosthenes | 🔵 | MathAndBits.java -- SPF sieve, Euler totient, #204 #2523 |
+| 102 | GCD / LCM | 🔵 | MathAndBits.java -- Euclidean, Extended GCD, #1071 |
+| 103 | Modular arithmetic | 🔵 | MathAndBits.java -- modPow, modInverse, nCr, matrix exp, #50 #1922 |
 
 ### 6.4 System Design DSA
 | # | Topic | Status | Notes |
 |---|-------|--------|-------|
-| 104 | LRU Cache | ⬜ | |
-| 105 | LFU Cache | ⬜ | |
-| 106 | Consistent hashing | ⬜ | |
-| 107 | Skip list | ⬜ | |
-| 108 | Bloom filter | ⬜ | |
+| 104 | LRU Cache | 🔵 | SystemDesignDSA.java -- HashMap + DLL, O(1) get/put, #146 |
+| 105 | LFU Cache | 🔵 | SystemDesignDSA.java -- 2 HashMap + LinkedHashSet freq buckets, #460 |
+| 106 | Consistent hashing | 🔵 | SystemDesignDSA.java -- TreeMap ring, virtual nodes, min redistribution |
+| 107 | Skip list | 🔵 | SystemDesignDSA.java -- probabilistic O(log n), #1206 |
+| 108 | Bloom filter | 🔵 | SystemDesignDSA.java -- bit array + k hashes, 0 false negative, ~1% FPR |
 
 ---
 
@@ -315,3 +315,13 @@
 | phase4_graphs/AdvancedGraph.java | Union-Find, Kruskal, Prim, Kosaraju SCC, Bridges/AP, Bipartite | 2026-03-30 |
 | phase5_dp/DPFundamentals.java | Memo/Tab/SpaceOpt, 1D DP, 0-1 Knapsack, Unbounded, LCS, LIS, EditDist | 2026-03-30 |
 | phase5_dp/AdvancedDP.java | Grid DP, Matrix Chain, Palindrome, Bitmask, Interval, Tree DP, DAG DP | 2026-03-30 |
+| phase6_advanced/trees/AdvancedTrees.java | AVL Tree, RB Tree concepts, Segment Tree, Fenwick Tree/BIT, Sparse Table | 2026-03-31 |
+| phase6_advanced/strings/StringAlgorithms.java | KMP, Rabin-Karp, Z-Algorithm, Suffix Array + LCP | 2026-03-31 |
+| phase6_advanced/math/MathAndBits.java | Bit Tricks, Power Set, Sieve+SPF, GCD/LCM, ModPow/nCr/MatrixExp | 2026-03-31 |
+| phase6_advanced/systemdesign/SystemDesignDSA.java | LRU Cache, LFU Cache, Consistent Hashing, Skip List, Bloom Filter | 2026-03-31 |
+| leetcode_practice/Session01_TwoPointerSliding.java | #167 #283 #344 #3 #11 #15 #438 #567 #76 #42 | 2026-03-31 |
+| leetcode_practice/Session02_BinarySearch.java | #704 #35 #33 #81 #153 #875 #1011 #74 #410 #4 | 2026-03-31 |
+| leetcode_practice/Session03_StackAndTrees.java | #20 #739 #853 #84 #85 #104 #572 #102 #543 #236 #124 #297 | 2026-03-31 |
+| leetcode_practice/Session04_DynamicProgramming.java | #70 #198 #300 #322 #416 #1143 #647 #72 #312 #10 #32 | 2026-03-31 |
+| leetcode_practice/Session05_Graphs.java | #200 #133 #785 #207 #210 #743 #787 #684 #127 #269 | 2026-03-31 |
+| leetcode_practice/Session06_BacktrackingGreedy.java | #39 #40 #46 #79 #51 #455 #55 #45 #435 #452 #763 | 2026-03-31 |
