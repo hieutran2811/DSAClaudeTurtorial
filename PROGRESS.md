@@ -40,7 +40,7 @@
 ### 1.2 Arrays & Strings
 | # | Topic | Status | Notes |
 |---|-------|--------|-------|
-| 5 | Static vs Dynamic array | ✅ | ArrayList internals trong BigONotation.java |
+| 5 | Static vs Dynamic array | ✅ | StaticVsDynamicArray.java — StaticArray, DynamicArray (resize demo), ArrayList API |
 | 6 | Two-pointer technique | 🔵 | TwoPointer.java |
 | 7 | Sliding window | 🔵 | SlidingWindow.java |
 | 8 | Prefix sum | 🔵 | PrefixSum.java |
@@ -290,6 +290,7 @@
 | Main.java | Project init | 2026-03-30 |
 | phase1_foundations/complexity/BigONotation.java | Big-O, Time/Space complexity | 2026-03-30 |
 | phase1_foundations/complexity/ComplexityExercises.java | Bài tập phân tích độ phức tạp + Amortized | 2026-03-30 |
+| phase1_foundations/arrays/StaticVsDynamicArray.java | Static Array, Dynamic Array (resize), ArrayList API | 2026-04-06 |
 | phase1_foundations/arrays/TwoPointer.java | Two Pointer: opposite ends, slow/fast, two arrays | 2026-03-30 |
 | phase1_foundations/arrays/SlidingWindow.java | Sliding Window: fixed & dynamic, template | 2026-03-30 |
 | phase1_foundations/arrays/PrefixSum.java | Prefix Sum 1D/2D, Subarray Sum K, String techniques | 2026-03-30 |
